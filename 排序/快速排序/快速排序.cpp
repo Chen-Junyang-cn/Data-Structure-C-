@@ -27,7 +27,7 @@ void quickSort(vector<int>& a, int l, int r) {
 
 int main()
 {
-    vector<int> a = { 3,2,1,0 };
+    vector<int> a = { 5,4,3,2,1,0 };
     quickSort(a, 0, a.size() - 1);
     for (int& num : a) cout << num << " ";
 }
